@@ -8,7 +8,7 @@ This guide walks through creating your first Vivado project for the Nexys A7 boa
 
 ## Prerequisites
 
-- Vivado installed on your machine → [Installation guide](setup-vivado.md)
+- Vivado installed on your machine → [Installation guide](docs/setup-vivado.md)
 - Board files for the Nexys A7 installed
 
 ---
