@@ -28,6 +28,3 @@ When prompted to select your part in Vivado (Slide 5), use these specs:
 ## Next Steps
 Once you have mastered the workflow in this guide, head over to the **[Blinky Tutorial](../01_blinky/)** to write your first piece of HDL code.
 
----
-**Author:** ProtoFPGA League  
-**Date:** April 2026
