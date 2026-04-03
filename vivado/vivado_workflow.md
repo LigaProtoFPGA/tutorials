@@ -8,8 +8,8 @@ This guide covers the full FPGA prototyping workflow: from creating a project wi
 
 ## Prerequisites
 
-- Vivado installed 
-- Tutorial 1 completed
+- Vivado installed → [Installation guide](../instalacao_vivado.md)
+- Tutorial 1 completed → [Project Setup and Simulation](./vivado_intro.md)
 - Nexys A7 board connected via USB **before** turning on the computer
 - Board powered via USB (Jumper JP3 set to USB)
 - Board configured to receive bitstreams via JTAG (Jumper JP1)
@@ -44,11 +44,11 @@ end somador;
 
 The Nexys A7 has switches, LEDs, and other I/O connected to the FPGA pins. For this project, use:
 
-| Signal       | Board resource       |
-|--------------|----------------------|
-| A (4 bits)   | Switches SW3 to SW0  |
-| B (4 bits)   | Switches SW7 to SW4  |
-| Soma (4 bits)| LEDs LD3 to LD0      |
+| Signal        | Board resource      |
+|---------------|---------------------|
+| A (4 bits)    | Switches SW3 to SW0 |
+| B (4 bits)    | Switches SW7 to SW4 |
+| Soma (4 bits) | LEDs LD3 to LD0     |
 
 This mapping is defined in a **constraints file** (`.xdc`), which tells Vivado which physical FPGA pins correspond to each signal in your VHDL code.
 
@@ -58,13 +58,35 @@ This mapping is defined in a **constraints file** (`.xdc`), which tells Vivado w
 
 1. Download the Nexys A7 master constraints file:  
    [Nexys-A7-100T-Master.xdc](https://github.com/Digilent/digilent-xdc/blob/master/Nexys-A7-100T-Master.xdc)
-2. Rename it to `Nexys-A7-100T-Master.xdc` if needed
-3. In Vivado, go to the **Sources** panel → right-click `constrs_1` under **Constraints** → **Add Sources**
-4. Choose **Add or create constraints** → **Next**
-5. Click **Add Files**, navigate to the `.xdc` file and select it → **Finish**
-6. Open the `.xdc` file in the Vivado text editor
-7. The file has all pins commented out. Uncomment and edit only the lines corresponding to SW0–SW7, LD0–LD3, and rename the signals to match your VHDL port names (`A`, `B`, `Soma`)
-8. Save the file
+2. In Vivado, go to the **Sources** panel → right-click `constrs_1` under **Constraints** → **Add Sources**
+3. Choose **Add or create constraints** → **Next**
+4. Click **Add Files**, navigate to the `.xdc` file and select it → **Finish**
+5. Open the `.xdc` file in the Vivado text editor
+6. **Delete all the existing content** and replace it with the snippet below
+7. Save the file
+
+**somador4.xdc** — copy and paste this exactly:
+```xdc
+## Switches — Input A (SW3 to SW0)
+set_property -dict { PACKAGE_PIN J15   IOSTANDARD LVCMOS33 } [get_ports { A[0] }];
+set_property -dict { PACKAGE_PIN L16   IOSTANDARD LVCMOS33 } [get_ports { A[1] }];
+set_property -dict { PACKAGE_PIN M13   IOSTANDARD LVCMOS33 } [get_ports { A[2] }];
+set_property -dict { PACKAGE_PIN R15   IOSTANDARD LVCMOS33 } [get_ports { A[3] }];
+
+## Switches — Input B (SW7 to SW4)
+set_property -dict { PACKAGE_PIN R17   IOSTANDARD LVCMOS33 } [get_ports { B[0] }];
+set_property -dict { PACKAGE_PIN T18   IOSTANDARD LVCMOS33 } [get_ports { B[1] }];
+set_property -dict { PACKAGE_PIN U18   IOSTANDARD LVCMOS33 } [get_ports { B[2] }];
+set_property -dict { PACKAGE_PIN R13   IOSTANDARD LVCMOS33 } [get_ports { B[3] }];
+
+## LEDs — Output Soma (LD3 to LD0)
+set_property -dict { PACKAGE_PIN H17   IOSTANDARD LVCMOS33 } [get_ports { Soma[0] }];
+set_property -dict { PACKAGE_PIN K15   IOSTANDARD LVCMOS33 } [get_ports { Soma[1] }];
+set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { Soma[2] }];
+set_property -dict { PACKAGE_PIN N14   IOSTANDARD LVCMOS33 } [get_ports { Soma[3] }];
+```
+
+> The port names in the `.xdc` file (`A`, `B`, `Soma`) must match exactly the port names declared in your VHDL entity.
 
 ---
 
@@ -94,11 +116,14 @@ In the **IMPLEMENTED DESIGN** view you can explore the result:
 - Open the **Schematic** tab in the top-right panel
 - You will see statistics at the top: number of cells, I/O ports, and nets
 - Yellow boxes = logic cells (LUTs), green lines = wires, thick green lines = buses
+- Expected: 17 cells, 12 I/O ports, 25 nets
 
 **Device view:**
 - Click on any cell in the schematic (e.g. a LUT4)
 - Switch to the **Device** tab to see where that element sits physically on the FPGA chip
-- White squares = selected element, white lines = routing paths
+- White squares = selected element, white lines = routing paths to other components
+
+> Try clicking different elements and switching between Schematic and Device views to understand how the synthesized circuit maps to the physical hardware.
 
 ---
 
