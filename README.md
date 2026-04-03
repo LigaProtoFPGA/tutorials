@@ -19,8 +19,10 @@ Guides for the **Nexys 1 and Nexys 2** using the ISE 14.7 VM toolchain.
 
 | Board | Toolchain | Guide |
 |-------|-----------|-------|
-| Nexys A7 (Artix-7) | Vivado 2025.1 | [Installation guide](./vivado/instalacao_vivado.md) |
-| Nexys 1 and Nexys 2 | ISE 14.7 VM | *coming soon* |
+| Nexys A7 (Artix-7) | Vivado 2025.1
+| Nexys 1 | ISE 14.7 VM
+| Nexys 2 | ISE 14.7 VM 
+
 
 
 ## League
