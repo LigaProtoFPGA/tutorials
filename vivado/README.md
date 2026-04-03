@@ -15,7 +15,7 @@ Focuses on the initial steps:
 ---
 
 ## 2. Complete Workflow (Synthesis to Programming)
-**File:** [Tutorial_vivado_workflow.pdf](./Tutorial_vivado_workflow.pdf)
+**File:** [vivado_workflow.md](./vivado_workflow.md)
 
 Covers the full hardware logic flow:
 1. **RTL Analysis:** Checking your logic schematic.
