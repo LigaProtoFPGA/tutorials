@@ -5,7 +5,7 @@ This folder contains the essential visual guides for mastering the Xilinx Vivado
 ---
 
 ## 1. Project Setup (Introduction)
-**File:** [Tutorial_vivado_intro.pdf](./vivado_intro.md)
+**File:** [vivado_intro.md](./vivado_intro.md)
 
 Focuses on the initial steps:
 * Creating a new project.
