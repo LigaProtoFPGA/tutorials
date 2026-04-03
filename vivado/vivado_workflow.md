@@ -8,8 +8,8 @@ This guide covers the full FPGA prototyping workflow: from creating a project wi
 
 ## Prerequisites
 
-- Vivado installed → [Installation guide](./setup-vivado.md)
-- Tutorial 1 completed → [Project Setup and Simulation](./vivado_intro.md)
+- Vivado installed 
+- Tutorial 1 completed
 - Nexys A7 board connected via USB **before** turning on the computer
 - Board powered via USB (Jumper JP3 set to USB)
 - Board configured to receive bitstreams via JTAG (Jumper JP1)
