@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">Introduction</h3>
+  <h3 align="center">Project 1</h3>
   <p align="center">
     Installation Guide
   </p>
@@ -56,19 +56,19 @@ Before starting, download the following packages:
 
 1. Extract the previously downloaded **ISE 14.7 VM**, it should look something like this:
 
-   ![Step 1](images/step1.png)
+   ![Step 1](images/project_1/step1.png)
 
 2. Go to the menu **"File"** and click on **"Import Appliance"**, as shown below:
 
-   ![Step 2](images/step2.png)
+   ![Step 2](images/project_1/step2.png)
 
 3. If everything went right, this window should appear:
 
-   ![Step 3](images/step3.png)
+   ![Step 3](images/project_1/step3.png)
 
    Now, choose the file **`14.7_VM.ova`** located at **`ova/14.7_VM.ova`** inside the extracted folder.
 
-   ![Step 3 Part 2](images/step3_part2.png)
+   ![Step 4](images/project_1/step4.png)
 
    If everything looks similar to the image above, press **Finish** and wait for the installation to complete.
 
