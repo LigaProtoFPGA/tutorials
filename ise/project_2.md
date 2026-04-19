@@ -35,9 +35,36 @@
 
 ### :computer: Creating a Project in ISE for Nexys 1 or Nexys 2 FPGA's
 
-1. Open ISE and if a project opens on startup, close it in File then Close Project, as shown below
+1. Open ISE and if a project opens on startup, close it in File then Close Project, as shown below:
 
 ![Step 1](./images/project_2/step1.png)
+
+2. Create a new project named **haldadd** clicking on the button **New Project**, as shown below:
+
+> [!WARNING]
+> Choose a folder that you're sure you have permission to write.
+
+![Step 2](./images/project_2/step2.png)
+
+3. Fill the name field as shown below and click on **Next**:
+
+> [!WARNING]
+> Don't use special characters in the project name or path.
+
+![Step 3](./images/project_2/step3.png)
+
+4. Change the fields according to the board you're using:
+
+For **Nexys 2** with size **1200**:
+
+> [!WARNING]
+> If you're using a device with size **500**, choose **XC3S500E** instead.
+
+![Step 4](./images/project_2/step4.png)
+
+For **Nexys 1**:
+
+![Step 5](./images/project_2/step5.png)
 
 
 
