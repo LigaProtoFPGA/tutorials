@@ -38,11 +38,18 @@ Before starting, download the following packages:
 
 #### 1. Install Prerequisites for VirtualBox
 
-
-When attempting to install VirtualBox, the installer may require additional dependencies:
+> [!WARNING]
+> When attempting to install **VirtualBox**, the installer may require additional dependencies:
 
 >  Microsoft Visual C++ 2019 Redistributable Package
+>  Python Core
+>  Win32 API
 
+If that occurs, download
+
+1. **VC_redist.x64.exe Package** — [Download](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+2. **Python** — [Download](https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe) 
+3. **Win32 API**  — Execute the following **py -m pip install --upgrade pywin32** in a prompt.
 
 ---
 
