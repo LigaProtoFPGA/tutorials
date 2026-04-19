@@ -39,5 +39,5 @@ This project covers:
 ### :old_key: Mentors
 
 
->  Prof. Ney
+>  Prof. Ney •
 >  Prof. Rodrigo

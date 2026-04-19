@@ -49,5 +49,5 @@ When attempting to install VirtualBox, the installer may require additional depe
 ### :old_key: Mentors
 
 
->  Prof. Ney
+>  Prof. Ney •
 >  Prof. Rodrigo
