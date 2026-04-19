@@ -1,7 +1,10 @@
 <div align="center">
+  <img src="./images/logo.jpg" alt="Logo" width="150"/>
   <h3 align="center">Project 1</h3>
+  <p align="center">Using the Xilinx ISIM Simulator</p>
   <p align="center">
-    Using the Xilinx ISIM Simulator
+    <a href="./project_files/project_1/">Project Files</a> |
+    <a href="https://github.com/LigaProtoFPGA/docs/blob/main/setup-ise-vm.md">Previous Project</a>
   </p>
 </div>
 
