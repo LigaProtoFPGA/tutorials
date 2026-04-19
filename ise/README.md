@@ -27,12 +27,20 @@
 
 ### :notebook: Introduction
 
-:paperclip: [Introduction.md](./Introduction.md)
+:paperclip: [Installation.md](./Installation.md)
 
 This project covers:
 
 1. ISE 14.7 Virtual Machine installation and configuration
-2. Usage of Xilinx ISIM tool
+
+### :notebook: Using the Xilinx ISIM Simulator
+
+:paperclip: [ISIM.md](./ISIM.md)
+
+This project covers:
+
+1. Xilinx ISIM Simulator usage
+2. A glimpse of the VHDL language
 
 ---
 

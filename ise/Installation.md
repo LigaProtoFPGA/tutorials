@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">Introduction</h3>
   <p align="center">
-    Project 1
+    Installation Guide
   </p>
   <p align="center">
     <a href="https://download.virtualbox.org/virtualbox/7.1.0/VirtualBox-7.1.0-164728-Win.exe">VirtualBox</a>
