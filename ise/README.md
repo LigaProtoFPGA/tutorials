@@ -39,6 +39,27 @@ This project covers:
 
 ### :old_key: Mentors
 
-
->  Prof. Ney •
->  Prof. Rodrigo
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="10">
+    <tr>
+      <td>
+        <a href="https://github.com/NeyCalazans">
+          <img src="https://github.com/NeyCalazans.png?size=100" width="80" style="border-radius:50%">
+        </a>
+      </td>
+      <td valign="middle">
+        <strong>Prof. Ney Calazans</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/adelfi172">
+          <img src="https://github.com/adelfi172.png?size=100" width="80" style="border-radius:50%">
+        </a>
+      </td>
+      <td valign="middle">
+        <strong>Prof. Rodrigo Pereira</strong>
+      </td>
+    </tr>
+  </table>
+</div>
