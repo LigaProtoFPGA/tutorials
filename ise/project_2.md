@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">Project 2</h3>
   <p align="center">
-    Installation Guide
+    Using the Xilinx ISIM Simulator
   </p>
 </div>
 
