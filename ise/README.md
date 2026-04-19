@@ -17,6 +17,7 @@
       <li><a href="#introduction">Introduction</a></li>
     </ul>
   </li>
+  <li><a href="#mentors">Mentors</a></li>
 </ol>
 </details>
 
@@ -37,7 +38,6 @@ This project covers:
 
 ### :old_key: Mentors
 
-<div style="border-left: 3px solid #ccc; padding-left: 12px; line-height: 2;">
-  Prof. Ney <br/>
-  Prof. Rodrigo
-</div>
+
+>  Prof. Ney
+>  Prof. Rodrigo

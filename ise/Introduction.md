@@ -17,6 +17,7 @@
     <li>
         <a href="#prerequisites">Installation</a>
     </li>
+    <li><a href="#mentors">Mentors</a></li>
 </ol>
 </details>
 
@@ -48,7 +49,5 @@ When attempting to install VirtualBox, the installer may require additional depe
 
 ### :old_key: Mentors
 
-<div style="border-left: 3px solid #ccc; padding-left: 12px; line-height: 2;">
-  Prof. Ney <br/>
-  Prof. Rodrigo
-</div>
+>  Prof. Ney 
+>  Prof. Rodrigo
