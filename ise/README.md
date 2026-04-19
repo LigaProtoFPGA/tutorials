@@ -14,7 +14,7 @@
   <li>
     <a href="#projects">Projects</a>
     <ul>
-      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#project_1">Project 1</a></li>
     </ul>
   </li>
   <li><a href="#mentors">Mentors</a></li>
@@ -25,17 +25,9 @@
 
 ## Projects
 
-### :notebook: Project 1 (Installation Guide)
+### :notebook: Project 1 (Using the Xilinx ISIM Simulator)
 
 :paperclip: [project_1.md](./project_1.md)
-
-This project covers:
-
-1. ISE 14.7 Virtual Machine installation and configuration
-
-### :notebook: Project 2 (Using the Xilinx ISIM Simulator)
-
-:paperclip: [project_2.md](./project_2.md)
 
 This project covers:
 
