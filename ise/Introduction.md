@@ -41,13 +41,13 @@ Before starting, download the following packages:
 
 When attempting to install VirtualBox, the installer may require additional dependencies:
 
-<div style="border-left: 3px solid #ccc; padding-left: 12px; line-height: 2;">
-  Microsoft Visual C++ 2019 Redistributable Package
-</div>
+>  Microsoft Visual C++ 2019 Redistributable Package
+
 
 ---
 
 ### :old_key: Mentors
 
->  Prof. Ney 
+
+>  Prof. Ney
 >  Prof. Rodrigo
