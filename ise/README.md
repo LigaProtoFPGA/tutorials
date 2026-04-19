@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="./images/logo.jpg" alt="Logo" width="150"/>
   <h3 align="center">ISE</h3>
   <p align="center">
     Tutorials for Nexys 1 and Nexys 2 using ISE 14.7
