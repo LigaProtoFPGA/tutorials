@@ -100,6 +100,17 @@ For **Nexys 1**:
 
 ![Step 11](./images/project_1/step11.png)
 
+6. To setup the simulation, select again the **halfadd_tb.vhd** file in the **Hierarchy** tab and then click with the right button in **Simulate Behavioral Model** in the **Process** tab, then change the **Property Display Level** to **Advanced** and the **Simulation Run Time** to **50 ns** and apply.
+
+![Step 12](./images/project_1/step12.png)
+
+7. To simulate, do a double click on **Simulate Behavioral Model** in the **Processes** tab, it should open a window similar to the shown in the image below. This is the **waveform** window that draws 50 nanoseconds of the circuit simulation.
+
+> [!TIP]
+> Adjust the waveform using the buttons indicated below.
+
+![Step 13](./images/project_1/step13.png)
+
 
 ### :old_key: Mentors
 
