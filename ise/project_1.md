@@ -31,6 +31,7 @@
 ### :file_folder: Creating the Project Files
 
 1. Create a working folder, named, for example, **halfadder**
+
 2. In that folder, create two source files with **VHDL** extension and the contents of [these files](./project_files/project_1/)
 
 ### :computer: Creating a Project in ISE for Nexys 1 or Nexys 2 FPGA's
@@ -66,6 +67,38 @@ For **Nexys 1**:
 
 ![Step 5](./images/project_1/step5.png)
 
+5. In the final window, check everything and then click on finish, as shown below:
+
+![Step 6](./images/project_1/step6.png)
+
+### :fountain_pen: Using the Xilinx ISIM Simulator
+
+1. In ISE, click with the right button on the FPGA icon in the **Hierarchy** window, and then **Add Copy of Source**, as shown below:
+
+![Step 7](./images/project_1/step7.png)
+
+2. Then add the two VHDL files created in previous steps, and click **OK**:
+
+![Step 8](./images/project_1/step8.png)
+
+> [!NOTE]
+> Notice that ISE detected correctly the files, because **halfadd_tb.vhd** was marked as **Simulation** and **halfadd.vhd** as **All**, indicating that it contains synthesizable VHDL code.
+
+3. In the **View** tab, choose **Simulation**:
+
+![Step 9](./images/project_1/step9.png)
+
+
+4. Select the **halfadd_tb.vhd** file in the **Hierarchy** window.
+
+![Step 10](./images/project_1/step10.png)
+
+5. Now in the **Processes** tab, do a double click in **Behavioral Check Syntax**, to verify if the testbench has any errors.
+
+> [!IMPORTANT]
+> Do the same for the **halfadd.vhd** file, clicking in the plus sign in the **Hierarchy** tab.
+
+![Step 11](./images/project_1/step11.png)
 
 
 ### :old_key: Mentors
