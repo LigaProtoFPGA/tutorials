@@ -30,6 +30,9 @@
 </ol>
 </details>
 
+> [!IMPORTANT]
+> This step-by-step is heavily based on the work of Professor Ney Laert Vilar Calazans, so all credits go to him.
+
 ---
 
 ### :fountain_pen: Prerequisites
@@ -75,48 +78,48 @@ Before starting, download the following packages:
 
 After the installation above, boot the **ISE 14.7 VM**. VirtualBox may detect suboptimal settings that should be adjusted **while the VM is not running**:
 
-> **7.1 — Memory Adjustment**
+> **Memory Adjustment**
 >
 > On machines with 4 GB of RAM, reduce the VM's allocated memory (under **System** in the OVB Manager) from 4 GB to **1909 MB** — keeping it below half the host machine's total memory.
 
-> **7.2 — Graphics Controller**
+> **Graphics Controller**
 >
 > Under **Display**, change the graphics controller to **VMSVGA**.
 > ⚠️ Note: Testing showed that VMSVGA makes screen resizing more cumbersome. The option **VBoxSVGA** may offer a better experience and is a valid alternative.
 
-> **7.3 — Keyboard Capture**
+> **Keyboard Capture**
 >
 > When launching the ISE VM, **accept the automatic keyboard capture suggestion**. Manual keyboard configuration does not present options such as *Português ABNT2*. Accepting or rejecting mouse capture appears to have no significant effect.
 
-> **7.4 — Enabling Network Access**
+> **Enabling Network Access**
 >
 > To enable internet access inside the VM, follow the [ISE 14.7 VM installation manual](https://docs.amd.com/v/u/en-US/ug1227-ise-vm-windows10) (Chapter 6 — *Enabling Full Networking*):
 > - With the VM stopped, open the OVB Manager
 > - Select the ISE 14.7 VM and go to **"Network"**
 > - Under **Adapter 1**, set **"Attached to:"** to **NAT**
 
-> **7.5 — Sharing a Project Folder Between the VM and Host**
+> **Sharing a Project Folder Between the VM and Host**
 >
 > To share your ISE project folder between the VM and the host machine:
 >
-> **7.5.1** In the OVB Manager (with the VM stopped), select the ISE 14.7 VM and open **"Shared Folders"**.
+> In the OVB Manager (with the VM stopped), select the ISE 14.7 VM and open **"Shared Folders"**.
 >
-> **7.5.2** Click **"Add new shared folder"** (blue folder icon with a green `+` in the top-right corner of the window).
+> Click **"Add new shared folder"** (blue folder icon with a green `+` in the top-right corner of the window).
 >
-> **7.5.3** In **"Folder Path"**, enter the path to your projects directory, e.g.:
+> In **"Folder Path"**, enter the path to your projects directory, e.g.:
 > ```
 > C:\Xilinx\ise_projs
 > ```
 > *(Adjust if you used a different location.)*
 >
-> **7.5.4** In **"Folder Name"**, set the name the folder will have inside the VM, e.g.:
+> In **"Folder Name"**, set the name the folder will have inside the VM, e.g.:
 > ```
 > ise_projs
 > ```
 >
-> **7.5.5** Check **"Auto-mount"** and click **OK**.
+> Check **"Auto-mount"** and click **OK**.
 >
-> **7.5.6** *(Optional)* To create a shortcut on the VM Desktop, open a terminal inside the VM and run:
+> *(Optional)* To create a shortcut on the VM Desktop, open a terminal inside the VM and run:
 > ```bash
 > cd /home/ise/Desktop
 > ln -s /home/ise/ise_projs ise_projs
