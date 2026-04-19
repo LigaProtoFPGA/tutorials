@@ -12,7 +12,7 @@ Guides for the **Nexys A7** (Artix-7) using the Vivado + Vitis toolchain.
 | [vivado_intro.md](./vivado/vivado_intro.md) | Project setup, simulation, and three progressive exercises |
 | [vivado_workflow.md](./vivado/vivado_workflow.md) | Full prototyping flow: synthesis, implementation, bitstream, and board programming |
 
-### 🗂️ ise/ *(coming soon)*
+### 🗂️ [ise/](./ise/) 
 Guides for the **Nexys 1 and Nexys 2** using the ISE 14.7 VM toolchain.
 
 ## Requirements
