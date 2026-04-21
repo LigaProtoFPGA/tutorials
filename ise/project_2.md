@@ -15,9 +15,8 @@
 <summary>Table of Contents</summary>
 <ol>
   <li><a href="#prerequisites">Prerequisites</a></li>
-  <li><a href="#creating">Creating the Project Files</a></li>
-  <li><a href="#creating2">Creating a Project in ISE for Nexys 1 or Nexys 2 FPGA's</li>
-  <li><a href="#using">Using the Xilinx ISIM Simulator</li>
+  <li><a href="#developing">Developing a 4 bit adder from the previous project</a></li>
+  <li><a href="#changing">Changing the testbench</li>
   <li><a href="#mentors">Mentors</a></li>
 </ol>
 </details>

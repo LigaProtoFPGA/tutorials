@@ -31,7 +31,7 @@
 
 :paperclip: [project_1.md](./project_1.md)
 
-This project covers:
+**This project covers:**
 
 1. Xilinx ISIM Simulator usage
 2. A glimpse of the VHDL language
@@ -40,11 +40,18 @@ This project covers:
 
 :paperclip: [project_2.md](./project_2.md)
 
-This project covers:
+**This project covers:**
 
 1. The making of a 4 bit adder
 2. The introduction of a new type
 
+### :notebook: Project 3
+
+:paperclip: [project_3.md](./project_3.md)
+
+**This project covers:**
+
+1. The making of a D-type flip-flop sensitive to the rising edge of the clock.
 
 ---
 
