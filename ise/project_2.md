@@ -4,7 +4,8 @@
   <p align="center">Expanding the previous project</p>
   <p align="center">
     <a href="./project_files/project_2/">Project Files</a> |
-    <a href="./project_1.md">Previous Project</a>
+    <a href="./project_1.md">Previous Project</a> |
+    <a href="./project_3.md">Next Project</a>
   </p>
 </div>
 
@@ -85,6 +86,10 @@ bb <= x"8", x"3" after 20 ns;
 2. Make some other changes, such as change the type of the signals to **std_vector_logic(3 downto 0)** .Try to simulate the circuit, the compiler should show some errors, fix them by making the necessary changes. If you're having trouble with this part, take a peek at the [project files](./project_files/project_2/).
 
 2. Now simulate the circuit the same way presented in the [previous project](./project_1.md). The waveform should be similar to the one that is being shown below:
+
+<p align="center">
+  <strong>You've reached the end! <a href="project_3.md">Next Project</a></strong>
+</p>
 
 ---
 

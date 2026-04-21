@@ -4,7 +4,8 @@
   <p align="center">Using the Xilinx ISIM Simulator</p>
   <p align="center">
     <a href="./project_files/project_1/">Project Files</a> |
-    <a href="https://github.com/LigaProtoFPGA/docs/blob/main/setup-ise-vm.md">Previous Project</a>
+    <a href="https://github.com/LigaProtoFPGA/docs/blob/main/setup-ise-vm.md">Previous Project</a> |
+    <a href="./project_2.md">Next Project</a>
   </p>
 </div>
 
@@ -142,6 +143,10 @@ For **Nexys 1**:
 
 <p align="center">
   <img src="./images/project_1/step13.png" alt="Step 13">
+</p>
+
+<p align="center">
+  <strong>You've reached the end! <a href="project_2.md">Next Project</a></strong>
 </p>
 
 ---
