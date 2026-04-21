@@ -88,6 +88,35 @@ bb <= x"8", x"3" after 20 ns;
 2. Now simulate the circuit the same way presented in the [previous project](./project_1.md). The waveform should be similar to the one that is being shown below:
 
 <p align="center">
+  <img src="./images/project_2/step2.png" alt="Step 2">
+</p>
+
+> [!TIP]
+> In order to generate all the possible input combinations of this circuit, it would be needed to create 256 patterns, 16 distinct values for A with each 16 unique values for B. This VHDL snippet below can do that. Try to understand it even though you might do not know what is a **process**.
+
+```vhdl
+...
+signal aa : std_logic_vector(3 downto 0):="0000"; 
+signal bb : std_logic_vector(3 downto 0):="0000";
+...
+process (aa)
+begin
+  if (aa/=x"F") then
+    aa <= aa+x"1" after 10ns;
+  else aa <= x"0" after 10ns;
+  end if;
+end process;
+
+process (bb)
+begin
+  if (bb/=x"F") then
+    bb <= bb+x"1" after 160ns;
+  else bb <= x"0" after 160ns;
+  end if;
+end process;
+```
+
+<p align="center">
   <strong>You've reached the end! <a href="project_3.md">Next Project</a></strong>
 </p>
 
