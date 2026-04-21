@@ -16,6 +16,7 @@
     <a href="#projects">Projects</a>
     <ul>
       <li><a href="#project_1">Project 1</a></li>
+      <li><a href="#project_2">Project 2</a></li>
     </ul>
   </li>
   <li><a href="#mentors">Mentors</a></li>
