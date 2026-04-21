@@ -26,7 +26,7 @@
 
 ## Projects
 
-### :notebook: Project 1 (Using the Xilinx ISIM Simulator)
+### :notebook: Project 1
 
 :paperclip: [project_1.md](./project_1.md)
 
@@ -34,6 +34,16 @@ This project covers:
 
 1. Xilinx ISIM Simulator usage
 2. A glimpse of the VHDL language
+
+### :notebook: Project 2
+
+:paperclip: [project_2.md](./project_2.md)
+
+This project covers:
+
+1. The making of a 4 bit adder
+2. The introduction of a new type
+
 
 ---
 
