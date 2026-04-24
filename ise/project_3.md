@@ -17,7 +17,8 @@
   <li><a href="#prerequisites">Prerequisites</a></li>
   <li><a href="#creating">Creating the Project Files</a></li>
   <li><a href="#creating2">Creating a Project in ISE for Nexys 1 or Nexys 2 FPGA's</li>
-  <li><a href="#using">Making a D-type flip-flop sensitive to the rising edge of the clock</li>
+  <li><a href="#creating3">Making a D-type flip-flop sensitive to the rising edge of the clock</li>
+  <li><a href="#using">Making the 3 possible implementations of a D-type flip flop sensitive to the rising edge of the clock</li>
   <li><a href="#mentors">Mentors</a></li>
 </ol>
 </details>
