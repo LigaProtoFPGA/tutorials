@@ -87,7 +87,7 @@ end TB_ARCHITECTURE;
 
 ### 5. Selecting the FPGA device
 
-Use the following filters to find the Nexys A7 chip:
+Use the following filters to narrow down the parts list:
 
 | Field    | Value           |
 |----------|-----------------|
@@ -96,7 +96,16 @@ Use the following filters to find the Nexys A7 chip:
 | Package  | csg324          |
 | Speed    | -1              |
 
-Select the device that appears, click **Next**, review the **New Project Summary** and click **Finish**.
+> ⚠️ **These filters alone are not enough** — several parts match them (`xc7a15t`, `xc7a35t`, `xc7a50t`, `xc7a75t`, `xc7a100t`, all `csg324-1`), because the Nexys A7 board exists in two versions, each with a different chip. Pick the exact part for your board:
+>
+> | Board version    | Part to select        |
+> |-------------------|------------------------|
+> | Nexys A7‑50T       | `xc7a50tcsg324-1`      |
+> | Nexys A7‑100T      | `xc7a100tcsg324-1`     |
+>
+> The board version is printed on a label on the board itself. If you're not sure which one the ProtoFPGA lab has, check with whoever handed you the board before continuing — **most of our current boards are the 100T**, so `xc7a100tcsg324-1` is the default if unconfirmed.
+
+Select the correct part in the table, click **Next**, review the **New Project Summary** and click **Finish**.
 
 ---
 
