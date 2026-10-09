@@ -28,7 +28,7 @@
 
 ### :fountain_pen: Prerequisites
 
-1. Have ISE 14.7 VM installed and configured, if you don't have it, please go [here](https://github.com/LigaProtoFPGA/docs/blob/main/setup-ise-vm.md)
+1. Have ISE 14.7 VM installed and configured, if you don't have it, please go [here](https://github.com/LigaProtoFPGA/docs/blob/main/setup/ise_vm.md)
 2. Have completed the [previous project](./project_1.md)
 
 ---
