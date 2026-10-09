@@ -4,7 +4,7 @@
   <p align="center">Using the Xilinx ISIM Simulator</p>
   <p align="center">
     <a href="./project_files/project_1/">Project Files</a> |
-    <a href="https://github.com/LigaProtoFPGA/docs/blob/main/setup-ise-vm.md">Previous Project</a> |
+    <a href="https://github.com/LigaProtoFPGA/docs/blob/main/setup/ise_vm.md">Previous Project</a> |
     <a href="./project_2.md">Next Project</a>
   </p>
 </div>
@@ -29,7 +29,7 @@
 
 ### :fountain_pen: Prerequisites
 
-1. Have ISE 14.7 VM installed and configured, if you don't have it, please go [here](https://github.com/LigaProtoFPGA/docs/blob/main/setup-ise-vm.md)
+1. Have ISE 14.7 VM installed and configured, if you don't have it, please go [here](https://github.com/LigaProtoFPGA/docs/blob/main/setup/ise_vm.md)
 
 ---
 
