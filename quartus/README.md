@@ -1,22 +1,26 @@
-# Tutoriais de Quartus II e ModelSim-Altera
+# Quartus II and ModelSim-Altera Tutorials
 
-Adaptação dos tutoriais de simulação VHDL do professor Ney Calazans para Quartus II 13.1 e ModelSim-Altera.
+Adaptation of Professor Ney Calazans's VHDL simulation tutorials for Quartus II 13.1 and ModelSim-Altera.
 
-## Conteúdo
+## Contents
 
-- Projeto 1: meio somador de 1 bit.
-- Projeto 2: somador de 4 bits.
-- Projeto 3: flip-flop D com três arquiteturas.
+- Project 1: 1-bit half adder.
+- Project 2: 4-bit adder.
+- Project 3: D flip-flop with three architectures.
 
-## Ambiente utilizado
+## Software and Configuration
 
 - Quartus II 13.1 Web Edition.
 - ModelSim-Altera Starter Edition 10.1d.
-- Família Cyclone III.
-- Linguagem VHDL.
+- Cyclone III device family.
+- VHDL.
 
-## Autoria
+## Documentation
 
-Adaptação e documentação: Valentina Ragnini — projeto de pesquisa na UFSC.
+The accompanying tutorial report is written in Portuguese.
 
-Material original: professor Ney Calazans.
+## Credits
+
+Adaptation and documentation: Valentina Ragnini — undergraduate research project at UFSC.
+
+Original teaching materials: Professor Ney Calazans.
